@@ -6,7 +6,7 @@ export default function App() {
   const [select, setSelect] = useState('ashar');
   setTimeout(() => {
     setSelect('ashar');
-  }, 3000);
+  }, 6000);
   // console.log(select);
   return (
     <div>
