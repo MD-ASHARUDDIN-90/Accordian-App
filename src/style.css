@@ -6,7 +6,12 @@ p {
 .app{
   display: flex;
   align-items: center;
+  justify-content: space-around;
   
+}
+.app div{
+  display: flex;
+  align-items: center;
 }
 .appMain {
   padding: 0rem 1rem;

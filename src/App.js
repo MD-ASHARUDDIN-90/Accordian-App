@@ -11,6 +11,7 @@ export default function App() {
   return (
     <div>
       <div className="app">
+        <div>
         <ImArrowRight className="icon" />
         <h2 className="appMain">
           Some Important Question On React ... 
@@ -18,6 +19,8 @@ export default function App() {
             ? ` Hey You Selected Question : ${select + 1}`
             : ''}
         </h2>
+        </div>
+        <h4>&copy; MD_Asharuddin_2023</h4>
       </div>
       <Accordian setSelect={setSelect} />
     </div>
