@@ -20,7 +20,7 @@ export default function App() {
             : ''}
         </h2>
         </div>
-        <h4>&copy; MD_Asharuddin_2023</h4>
+        <h3>&copy; MD_Asharuddin_2023</h3>
       </div>
       <Accordian setSelect={setSelect} />
     </div>
